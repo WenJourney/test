@@ -418,7 +418,7 @@ var resizePizzas = function(size) {
 
   changeSliderLabel(size);
 
-  // 遍历披萨的元素并改变它们的宽度, pizza 的大小怎么没有一起变化？
+  // 遍历披萨的元素并改变它们的宽度，已经可以更改大小了！
   function changePizzaSizes(size) {
     var newWidth = 0;
     switch (size) {
